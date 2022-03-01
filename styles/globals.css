@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-r from-[#1a5c79] to-[#06202A] text-gray-300;
+  }
+}
+/* bg-[#06202A] */
